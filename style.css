@@ -1,0 +1,154 @@
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: grey;
+    font-size: 40px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}   
+
+.nav-links {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.main-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 10px;
+    width: 80%;
+    line-height: 1.2; 
+    display: flex; 
+    justify-content: center;
+    gap: 15px;
+    border: 2px solid #ccc ;
+}
+
+ h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+.image-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    
+    border-radius: 8px;
+   
+} 
+
+#recipeForm {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    /* background: #dacaca; */
+}
+
+ #recipeForm input {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.checkbox-row input {
+    margin-right: 8px;
+    width: auto;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    /* width: 100%; */
+    cursor: pointer;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#success {
+    margin-top: 15px;
+    font-weight: bold;
+    display: none;
+    color: green;
+}
+
+/* Recipes page styles */
+/* 
+.recipe-container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+.recipe-block {
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+    /* background-color: #f9f9f9; */
+}
+
+.recipes-main-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 10px;
+    width: 80%;
+    line-height: 1.2; 
+    display: flex; 
+    justify-content: center;
+    gap: 15px;
+    border: 2px solid #ccc ;
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "recipeName": "Pasta",
+    "ingredients": [
+      "butter",
+      "sugar",
+      "eggs"
+    ],
+    "instructions": [
+      "Step 1...",
+      "Step 2..."
+    ],
+    "yourName": "sathya",
+    "yourEmail": "sathya@mail.com",
+    "agreedToTerms": true,
+    "createdAt": "2025-12-12T02:32:17.163Z"
+  },
+  {
+    "recipeName": "Thai curry",
+    "ingredients": [
+      "coconut milk",
+      "curry paste",
+      "vegetables"
+    ],
+    "instructions": [
+      "Step 1...",
+      "Step 2..."
+    ],
+    "yourName": "sathya",
+    "yourEmail": "sathya@mail.com",
+    "agreedToTerms": true,
+    "createdAt": "2025-12-12T03:14:49.803Z"
+  },
+  {
+    "recipeName": "Noodle",
+    "ingredients": [
+      "Water",
+      "Salt"
+    ],
+    "instructions": [
+      "Step 1",
+      "Step 2"
+    ],
+    "yourName": "sathya",
+    "yourEmail": "sathya@mail.com",
+    "agreedToTerms": true,
+    "createdAt": "2025-12-12T21:07:31.214Z"
+  },
+  {
+    "recipeName": "Pizza",
+    "ingredients": [
+      "Dough",
+      "Salt"
+    ],
+    "instructions": [
+      "Step 1",
+      "Step 2"
+    ],
+    "yourName": "Kavin",
+    "yourEmail": "Kavin@mail.com",
+    "agreedToTerms": true,
+    "createdAt": "2025-12-12T21:21:50.344Z"
+  }
+]
