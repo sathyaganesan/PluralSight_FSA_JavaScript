@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestion Page</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="recipe" href="recipe.html">
+</head>
+<body>
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="recipe.html">Recipe</a></li>
+        <li><a href="../recipes.html">Recipes</a></li>
+    </ul>
+     
+    <h1>Submit a Recipe</h1>
+
+    <form id="recipeForm">
+        <label for="recipeName">Recipe Name</label>
+        <input type="text" id="recipeName" required>
+
+        <label for="ingredients">Ingredients</label>
+        <textarea id="ingredients" rows="4" required></textarea>
+
+        <label for="instructions">Instructions</label>
+        <textarea id="instructions" rows="4" required></textarea>
+
+        <label for="yourName">Your Name</label>
+        <input type="text" id="yourName" required>
+
+        <label for="yourEmail">Your Email</label>
+        <input type="email" id="yourEmail" required>
+
+        <div class="checkbox-row">
+        <input type="checkbox" id="agree" required>
+        <label for="agree" style="margin:0;">I agree to the Terms & Conditions</label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="success">Recipe saved successfully!</div>
+    <script src="../app.js"></script>
+</body>
+</html>
+
+   
